@@ -1,5 +1,5 @@
 # Portfolio-Interactive-Data-Vis-Sp2021
-Exploratory + Narrative Visualization Projects for DATA 732000 [Interactive Data Visualization]
+Exploratory + Narrative Visualization Projects for DATA 732000
 
 In this portfolio you will find the sketches, drafts, data, code, and documentation for each project. At the end, you will find a reflection on my process and thoughts regarding the labs and projects. 
 
@@ -8,6 +8,6 @@ For my projects, I chose to talk about the High Risk Assessment of 19th Century 
 
 | Project | Title | Summary |
 | ------- | ----- | ------- |
-| Project 1 | The High Risk Assessment of Old Law Tenements | 
-| Project 2 | Demo: Community Board - 301 |
+| Project 1 | The High Risk Assessment of Old Law Tenements | Project 1, includes a map, a bar-graph and a line-graph to explain the incidences taken place in Old Law Tenements, a breakdown of the Old Law Tenement population per Borough, and Construction Permits over Time to explain the importance and risks Old Law Tenement present when structurally compromised.
+| Project 2 | Demo: Community Board# 301 | Project 2, includes an interactive map of Community Board 301 (Brooklyn, New York). This map allows the user to interact and locate buildings and their proximity to construction sites. It includes the classification of the 301 building population, whether it is an Old Law Tenement or not. The objective is so that the user can get a visual representation of the location of this specific population and relative distance to construction.
 
