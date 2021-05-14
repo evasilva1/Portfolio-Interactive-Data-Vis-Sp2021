@@ -1,23 +1,23 @@
-#Data
+# Data
 This page provides technical documentation of all datasets used, their sources and any analysis or manipulations performed. The data is listed in order of project.
 
-##Project 1: High Risk Assessment of Old Law Tenements
+## Project 1: High Risk Assessment of Old Law Tenements
 
-###Map of Incidences in Old Law Tenements
-
-**Source:**
-
-###Bar-graph of Old Law Tenements by Borough
+### Map of Incidences in Old Law Tenements
 
 **Source:**
 
-###Line-graph of Construction Permits Issued in New York City
+### Bar-graph of Old Law Tenements by Borough
 
 **Source:**
 
-##Project 2: Demo: Community Board# 301
+### Line-graph of Construction Permits Issued in New York City
 
-###Map of Community Board 301's Building Population
+**Source:**
+
+## Project 2: Demo: Community Board# 301
+
+### Map of Community Board 301's Building Population
 
     1. Community Board 301 Building Polygons
     2. HPD Old Law Classification
