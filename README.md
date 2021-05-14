@@ -12,7 +12,7 @@ For my projects, I chose to talk about the High Risk Assessment of 19th Century 
 | Project 2 | Demo: Community Board# 301 | Project 2, includes an interactive map of Community Board 301 (Brooklyn, New York). This map allows the user to interact and locate buildings and their proximity to construction sites. It includes the classification of the 301 building population, whether it is an Old Law Tenement or not. The objective is so that the user can get a visual representation of the location of this specific population and relative distance to construction.
 
 ## Data
-Most of the data used for the projects was obtained from [NYC OpenData](https://opendata.cityofnewyork.us/). An exception would be the descriptsion used for the Incidence Map, which were taken from a private database.
+Most of the raw data used for the projects was obtained from [NYC OpenData](https://opendata.cityofnewyork.us/). An exception would be the descriptions used for the Incidence Map, which were taken from a private database.
 
 | Dataset | Name | Used | Source |
 | ------- | ---- | ---- | ------ |

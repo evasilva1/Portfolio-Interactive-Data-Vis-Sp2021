@@ -5,25 +5,35 @@ This page provides technical documentation of all datasets used, their sources a
 
 ### Map of Incidences in Old Law Tenements
 
-**Source:**
+**Source:** [Raw Data]() [Processed Data]()
 
 ### Bar-graph of Old Law Tenements by Borough
 
-**Source:**
+**Source:** [Raw Data]() [Processed Data]()
 
 ### Line-graph of Construction Permits Issued in New York City
 
-**Source:**
+**Source:** [Raw Data]() [Processed Data]()
 
 ## Project 2: Demo: Community Board# 301
 
 ### Map of Community Board 301's Building Population
 
-    1. Community Board 301 Building Polygons
-    2. HPD Old Law Classification
-    3. Construction Site Classification
-    4. Adjacent to Construction Site Classification
-    5. Complaints Received 
+1. 301 Building Population
+**Source** The Building Footprints where obtained from NYC OpenData [Raw Data]() [Processed Data]()
+
+
+2. HPD Old Law Classification
+**Source** [Raw Data]() [Processed Data]()
+
+3. Construction Site Classification
+**Source** [Raw Data]() [Processed Data]()
+
+4. Adjacent to Construction Site Classification
+**Source** [Raw Data]() [Processed Data]()
+
+5. Complaints Received 
+**Source** [Raw Data]() [Processed Data]()
 
 
 
