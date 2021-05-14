@@ -16,7 +16,7 @@ Most of the data used for the projects was obtains from [NYC OpenData](https://o
 
 | Dataset | Name | Used | Source |
 | ------- | ---- | ---- | ------ |
-| 1 | Buildings Subject to HPD Jurisdiction | to identify Old Law Tenements | [NYC OpenData](https://data.cityofnewyork.us/Housing-Development/Buildings-Subject-to-HPD-Jurisdiction/kj4p-ruqc)
+| 1 | Buildings Subject to HPD Jurisdiction | to Identify Old Law Tenements | [NYC OpenData](https://data.cityofnewyork.us/Housing-Development/Buildings-Subject-to-HPD-Jurisdiction/kj4p-ruqc)
 | 2 | DOB Permit Issuance | to Identify Construction Permits | [NYC OpenData](https://data.cityofnewyork.us/Housing-Development/DOB-Permit-Issuance/ipu4-2q9a)
 | 3 | DOB Complaints Received | to Identify Construction Incidents | [NYC OpenData](https://data.cityofnewyork.us/Housing-Development/DOB-Complaints-Received/eabe-havv)
 | 4 | Building Footprints | for Spatial Reference | [NYC OpenData](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh)
