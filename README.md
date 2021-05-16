@@ -9,7 +9,7 @@ For my projects, I chose to talk about the High Risk Assessment of 19th Century 
 | Project | Title | Summary |
 | ------- | ----- | ------- |
 | Project 1 | The High Risk Assessment of Old Law Tenements | Project 1, includes a map, a bar-graph and a line-graph to explain the incidences taken place in Old Law Tenements, a breakdown of the Old Law Tenement population per Borough, and Construction Permits over Time to explain the importance and risks Old Law Tenement present when structurally compromised.
-| Project 2 | Demo: Community Board# 301 | Project 2, includes an interactive map of Community Board 301 (Brooklyn, New York). This map allows the user to interact and locate buildings and their proximity to construction sites. It includes the classification of the 301 building population, whether it is an Old Law Tenement or not. The objective is so that the user can get a visual representation of the location of this specific population and relative distance to construction.
+| Project 2 | Demo: Community Board 301 | Project 2, includes an interactive map of Community Board 301 (Brooklyn, New York). This map allows the user to interact and locate buildings and their proximity to construction sites. It includes the classification of the 301 building population, whether it is an Old Law Tenement or not. The objective is so that the user can get a visual representation of the location of this specific population and relative distance to construction.
 
 ## Data
 Most of the raw data used for the projects was obtained from [NYC OpenData](https://opendata.cityofnewyork.us/). An exception would be the descriptions used for the Incidence Map, which were taken from a private database.
@@ -18,7 +18,7 @@ Most of the raw data used for the projects was obtained from [NYC OpenData](http
 | ------- | ---- | ---- | ------ |
 | 1 | Buildings Subject to HPD Jurisdiction | to Identify Old Law Tenements | [NYC OpenData](https://data.cityofnewyork.us/Housing-Development/Buildings-Subject-to-HPD-Jurisdiction/kj4p-ruqc)
 | 2 | DOB Permit Issuance | to Identify Construction Permits | [NYC OpenData](https://data.cityofnewyork.us/Housing-Development/DOB-Permit-Issuance/ipu4-2q9a)
-| 3 | DOB Complaints Received | to Identify Construction Incidents | [NYC OpenData](https://data.cityofnewyork.us/Housing-Development/DOB-Complaints-Received/eabe-havv)
+| 3 | DOB Complaints Received | for Complaints Received | [NYC OpenData](https://data.cityofnewyork.us/Housing-Development/DOB-Complaints-Received/eabe-havv)
 | 4 | Building Footprints | for Spatial Reference | [NYC OpenData](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh)
 | 5 | Incidents & Accidents | for Incident Descriptions | Private Database
 | 6 | Community Districts | for Spatial Reference | [NYC OpenData](https://data.cityofnewyork.us/City-Government/Community-Districts/yfnk-k7r4)
