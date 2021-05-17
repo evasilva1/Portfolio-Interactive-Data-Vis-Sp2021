@@ -1,0 +1,70 @@
+body {
+    /* ref: https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro */
+    font-family: 'Lato', sans-serif;
+    padding: 1em 3em;
+}
+
+#dashboard{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(7, 2fr);
+    column-gap: 1em;
+    row-gap: 1em;
+    border: 3px solid blue;
+}
+
+#intro{
+    border: 3px solid red;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#map{
+    border: 3px solid lightseagreen;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#summary{
+    border: 3px solid pink;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#barchart{
+    border: 3px solid yellowgreen;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#middle{
+    border: 3px solid fuchsia;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#timeline{
+    border: 3px solid blueviolet;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#conclusion{
+    border: 3px solid cornflowerblue;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

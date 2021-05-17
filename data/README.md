@@ -2,6 +2,7 @@
 This page provides technical documentation of all datasets used, their sources and any analysis or manipulations performed. The data is listed in order of project.
 
 ## Project 1: High Risk Assessment of Old Law Tenements
+
 ### Map of Incidences in Old Law Tenements 
 This dataset was created using the Incident & Accident database. This database contains all Incidents or Accidents the Department of Buildings responds to. This database contains information regarding the location, description of accident and other related information. As this data is taken from a private database, alternatively this data can be taken from the DOB Received Complaints - Using the complaint numbers listed.
 
@@ -30,7 +31,7 @@ Once merged this file was imported to Mapbox GLJS and styled.
 ### Bar-graph of Old Law Tenements by Borough
 This dataset was created using the Buildings Subject to HPD Jurisdiction filtered for Old Law Tenements. This data was then aggregated to form a table with the following fields:
 
-* Borough ➡️ Borough Name
+* Borough ➡️ Borough Name 
 * Count ➡️ count of Old Law Tenements 
 
 **Source:** 
