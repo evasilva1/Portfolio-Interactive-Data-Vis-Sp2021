@@ -35,7 +35,7 @@ This dataset was created using the Buildings Subject to HPD Jurisdiction filtere
 * Count ➡️ count of Old Law Tenements 
 
 **Source:** 
-| [Raw Data](https://data.cityofnewyork.us/Housing-Development/Buildings-Subject-to-HPD-Jurisdiction/kj4p-ruqc) | [Processed Data]() |
+| [Raw Data](https://data.cityofnewyork.us/Housing-Development/Buildings-Subject-to-HPD-Jurisdiction/kj4p-ruqc) | [Processed Data](https://github.com/evasilva1/Portfolio-Interactive-Data-Vis-Sp2021/blob/main/data/OLT_Boro.csv) |
 
 ### Line-graph of Construction Permits Issued in New York City
 This dataset was created using the DOB Permit Issuance cleaned data files. Each datset was aggregated and merge to create a table with the following fields:
@@ -46,7 +46,7 @@ This dataset was created using the DOB Permit Issuance cleaned data files. Each 
 * NB ➡️ count of New Building permits
 
 **Source:** 
-| [Raw Data](https://data.cityofnewyork.us/Housing-Development/DOB-Permit-Issuance/ipu4-2q9a) | [Processed Data]() |
+| [Raw Data](https://data.cityofnewyork.us/Housing-Development/DOB-Permit-Issuance/ipu4-2q9a) | [Processed Data](https://github.com/evasilva1/Portfolio-Interactive-Data-Vis-Sp2021/blob/main/data/Permits_Year.csv) |
 
 ## Project 2: Demo: Community Board# 301
 
@@ -114,7 +114,6 @@ Each data file was then cleaned for the following:
 | DM | Job Start Date >= 1/1/2010 ▪️ Expiration Date >= 1/1/2010 ▪️ Permit Type = DM ▪️ Work Type is NULL |
 | NB | Job Start Date >= 1/1/2010 ▪️ Expiration Date >= 1/1/2010 ▪️ Permit Type = NB or FO ▪️ Work Type is NULL |
 | A1 | Job Start Date >= 1/1/2010 ▪️ Expiration Date >= 1/1/2010 ▪️ Permit Type = AL or FO ▪️ Work Type is NULL |
-|  | |
 
 Each one of these cleaned data files were joined to the 301 Building Footprints data by BIN using QGIS, like the OLT Classification. The fields that were kept from the csv files were the following:
 
@@ -179,7 +178,6 @@ These Complaint Categories were specifically chosen as they provide information 
 | BIN# | 01 | 10 | 30 | 73 | Total |
 | ---- | -- | -- | -- | -- | ----- |
 | 123456789 | 0 | 0 | 0 | 1 | 1 |
-| | | | | | |
 
 Each row contains the count of each type of complaint received in that BIN. 
 
