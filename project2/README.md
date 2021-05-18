@@ -20,7 +20,7 @@ Originally, the idea was to create a page where the sole item present was a map.
 
 **Sketch 2:** The second sketch created for Project 2. 
 
-<img src='../lib/assets/proj2_sketch2.PNG' height='400px' width='700px'>
+<img src='../lib/assets/proj2_sketch2.png' height='400px' width='700px'>
 
 After discussing with the Professor and working through the ideation workshop, a few items changed. Instead of incorporating a sidebar for the description card, the information would now be set on the map (right-hand corner) triggered by hovering over a building. The map would present a legend showing all the different component included on the map. Instead of creating an svg and importing multiple geojson files, Mapbox GL JS was used to create the viewbox for the map. Per feedback, the use of Mapbox allowed for faster speeds and cleaner use of all the data files.
 
