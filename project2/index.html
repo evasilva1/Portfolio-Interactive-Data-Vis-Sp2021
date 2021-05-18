@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Old Law Tenements & Adjacent Construction</title>
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <h1>DEMO: OLD LAW TENEMENTS & ADJACENT CONSTRUCTION</h1>
+            <h2>BROOKLYN, NEW YORK</h2>
+          </header>
+        <div id="main">
+            <p> In exploring, New York City and its extensive building population, 
+                Community Board 301 was chosen as the region
+                of study due to its large Old Law Tenement population. As presented in
+                <a href="url">Project 1,</a> this map displays all buildings and
+                identifies whether the building is an Old Law Tenement, is a site for Construction Activity,
+                is a site Adjacent to Construction Activity, or has filed a Complaint.
+            </p>
+        </div>
+        <div id='map'></div>
+        <div class="map-overlay" id="features">
+            <h2> Community Board 301</h2>
+            <div id="pd"><p>Hover over a building!</p></div>
+        </div>
+        <div class="map-overlay" id="legend"></div>
+          
+         <!-- this is the line that loads in d3 -->
+
+        <script src="../../lib/d3.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>

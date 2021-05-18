@@ -1,0 +1,72 @@
+body {
+    /* ref: https://fonts.google.com/specimen/Source+Sans+Pro?selection.family=Source+Sans+Pro */
+    font-family: 'Lato', sans-serif;
+    padding: 1em 3em;
+    background-color: white;
+  }
+
+#main {
+    display: block;
+    text-align: center;
+    margin-left: 0px;
+    width:100%;
+    height: 60px;
+    overflow: auto;
+}
+
+#map {
+    display: block;
+    width: 100%;
+    height: 750px;
+}
+
+.map-overlay{
+    position: absolute;
+    bottom: 0; /*0*/
+    right: 60px; /*0*/
+    background: rgba(255, 255, 255,0.8);
+    margin-right: 20px;
+    font-family: Arial, sans-serif;
+    overflow: auto;
+    border-radius: 3px;
+}
+
+h2,
+h3{
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+h3{
+    font-size: 1em;
+}
+
+p{
+    font-size: 0.95em;
+    margin: 10px;
+    text-align: left;
+}
+
+#features{
+    top:0; /*0*/
+    height: 160px; /*100*/
+    margin-top: 240px; /*20*/
+    width: 280px; /*250*/
+}
+
+#legend{
+    padding: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 18px;
+    height: 110px; /*150px*/
+    margin-bottom: 110px; /*40px*/
+    width: 100px;
+}
+
+.legend-key {
+    display: inline-block;
+    border-radius: 20%;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+  }
