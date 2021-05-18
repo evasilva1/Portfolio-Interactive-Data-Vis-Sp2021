@@ -1,16 +1,16 @@
 # Data
-This page provides technical documentation of all datasets used, their sources and any analysis or manipulations performed. The data is listed in order of project.
+This page provides technical documentation of all datasets used, their sources, and any analysis or manipulations performed. The data is listed in the order of projects.
 
 ## Project 1: High Risk Assessment of Old Law Tenements
 
 ### Map of Incidences in Old Law Tenements 
-This dataset was created using the Incident & Accident database. This database contains all Incidents or Accidents the Department of Buildings responds to. This database contains information regarding the location, description of accident and other related information. As this data is taken from a private database, alternatively this data can be taken from the DOB Received Complaints - Using the complaint numbers listed.
+This dataset was created using the Incident & Accident database. This database contains all Incidents or Accidents the Department of Buildings responds to. This database contains information regarding the location, description of the accident and other related information. As this data is taken from a private database, alternatively this data can be taken from the DOB Received Complaints - Using the complaint numbers listed.
 
-The data was filtered for incidents which took place in Old Law Tenements. 
+The data was filtered for incidents that took place in Old Law Tenements. 
 
     HPD = Old Law Tenement
 
-The dataset which contained more than 20 fields was reduced to the following fields:
+The dataset which contained more than 20 fields was shortened to the following fields:
 
 * Incident date (MM/DD/YYYY) ➡️ Incident Date
 * Check2 Description ➡️ Incident Category Description
@@ -38,7 +38,7 @@ This dataset was created using the Buildings Subject to HPD Jurisdiction filtere
 | [Raw Data](https://data.cityofnewyork.us/Housing-Development/Buildings-Subject-to-HPD-Jurisdiction/kj4p-ruqc) | [Processed Data](https://github.com/evasilva1/Portfolio-Interactive-Data-Vis-Sp2021/blob/main/data/OLT_Boro.csv) |
 
 ### Line-graph of Construction Permits Issued in New York City
-This dataset was created using the DOB Permit Issuance cleaned data files. Each datset was aggregated and merge to create a table with the following fields:
+This dataset was created using the DOB Permit Issuance cleaned data files. Each dataset was aggregated and merge to create a table with the following fields:
 
 * Year ➡️ the permit year
 * A1 ➡️ count of Alteration 1 permits
@@ -58,7 +58,7 @@ To create the geojson file containing Community Board 301's Building Population,
 
     boro_cd = 301.00
 
-And, exported it as it's own shapefile. Using the newly created 301 Community District shapefile as a reference polygon, the Building Footprints shapefile was imported and clipped for Building Footprints within the 301 Community District polygon. This new set of Building Footprints corresponding to Community District 301 were exported as a new shapefile. Most features were deleted with exception to the following:
+And, export it as its shapefile. Using the newly created 301 Community District shapefile as a reference polygon, the Building Footprints shapefile was imported and clipped for Building Footprints within the 301 Community District polygon. This new set of Building Footprints corresponding to Community District 301 were exported as a new shapefile. Most features were deleted with the exception of the following:
 
 * bin ➡️ building identification number
 * cnstrct_yr ➡️ year of construction
@@ -74,14 +74,14 @@ To identify whether a building was classified as an Old Law Tenement, the Buildi
 
     DoBBuildingClass = OLD LAW TENEMENT
 
-All original fields were kept and exported out as a csv file. The csv file was then imported in QGIS and joined to the **301 Building Footprints** data using *bin* as the joining field. The following fields were kept and joined to the main Building Footprint file:
+All original fields were kept and exported out as a CSV file. The CSV file was then imported in QGIS and joined to the **301 Building Footprints** data using *bin* as the joining field. The following fields were kept and joined to the main Building Footprint file:
 
 * DoBBuildingClass ➡️ HPD Classification of Multiple Dwellings
 * LegalStories ➡️ number of legal stories in building
 * LifeCycle ➡️ the stage in the building life cycle
 * RecordStatus ➡️ the status of record
 
-Once the join was finalized and saved out as a new named file, an OLT field was created recoding the DoBBuilding field to a 0-1 using the following expression:
+Once the join was finalized and saved out as a newly named file, an OLT field was created recoding the DoBBuilding field to a 0-1 using the following expression:
 
     if DoBBuilding = OLD LAW TENEMENT == 1
     else 0
@@ -96,7 +96,7 @@ Once the new field was finalized the data was saved out and given a new name.
 **Source** | [Raw Data](https://data.cityofnewyork.us/Housing-Development/Buildings-Subject-to-HPD-Jurisdiction/kj4p-ruqc) |
 
 #### Construction Site Classification
-To identify whether a building is home to construction activity, the DOB Permit Issuance data was used. This data was pre-filtered using the filters available on the platform. The data was filtered for:
+To identify whether a building is a home to construction activity, the DOB Permit Issuance data was used. This data was pre-filtered using the filters available on the platform. The data was filtered for:
 
     Job Type = DM or NB or A1 
 
@@ -106,7 +106,7 @@ where,
     NB ➡️ New Building job
     A1 ➡️ Alteration 1 job
 
-As the data file resulted to big of a file to open on my computer, I downloaded each Job Type as it own indiviual file. In other words, I had (3) csv files, one for each of the Job Types listed above.
+As the data file resulted too big of a file to open on my computer, I downloaded each Job Type as its individual file. In other words, I had (3) CSV files, one for each of the Job Types listed above.
 
 Each data file was then cleaned for the following:
 | Job Type | Data Cleaned For |
@@ -115,7 +115,7 @@ Each data file was then cleaned for the following:
 | NB | Job Start Date >= 1/1/2010 ▪️ Expiration Date >= 1/1/2010 ▪️ Permit Type = NB or FO ▪️ Work Type is NULL |
 | A1 | Job Start Date >= 1/1/2010 ▪️ Expiration Date >= 1/1/2010 ▪️ Permit Type = AL or FO ▪️ Work Type is NULL |
 
-Each one of these cleaned data files were joined to the 301 Building Footprints data by BIN using QGIS, like the OLT Classification. The fields that were kept from the csv files were the following:
+Each one of these cleaned data files was joined to the 301 Building Footprints data by BIN using QGIS, like the OLT Classification. The fields that were kept from the CSV files were the following:
 
 * Job Type ➡️ the type of job
 * Permit Type ➡️ the type of permit
@@ -123,7 +123,7 @@ Each one of these cleaned data files were joined to the 301 Building Footprints 
 * Expiration Date ➡️ the date the permit will expire
 * Job Start Date ➡️ the data the job started
 
-Once the join was finalized and saved out as a new named file, a Construction Activity Present field was created recoding the Job Type fields (one for each Job Type) to a 0-1 using the following expression:
+Once the join was finalized and saved out as a newly named file, a Construction Activity Present field was created recoding the Job Type fields (one for each Job Type) to a 0-1 using the following expression:
 
     if Job Type is NOT NULL or aJob Type is NOT NULL or dJob Type is NOT NULL == 1
     else 0
@@ -137,18 +137,18 @@ Once the new field was finalize the data was saved out and given a new name.
 **Source** | [Raw Data](https://data.cityofnewyork.us/Housing-Development/DOB-Permit-Issuance/ipu4-2q9a) | 
 
 #### Adjacent to Construction Site Classification
-To identify if a building was adjacent to a construction site, I had to create a separate dataset containing Construction Only sites. To do this, the following expressions was used:
+To identify if a building was adjacent to a construction site, I had to create a separate dataset containing Construction Only sites. To do this, the following expression was used:
 
     Construction = 1
 
-Once these sites were selected, a new shapefile was created by saving out using the selected feature save as method. With this new dataset, a buffer shapefile was created. Approximately 5 meter buffers were created for all Constructon Only polygons. As the data used were in decimal degrees the following calculations had to be made to produce the buffers.
+Once these sites were selected, a new shapefile was created by saving out using the selected feature save as method. With this new dataset, a buffer shapefile was created. Approximately 5-meter buffers were created for all Construction Only polygons. As the data used were in decimal degrees the following calculations had to be made to produce the buffers.
 
     1.00 decimal degree = 111 km
     0.001 decimal degree = 111 m
     0.000009 decimal degree = 1 m
     0.000045 decimal degree = 5 m
 
-A new output file is created for these buffers and used alongside the running master 301 Building Footprint file. Using a research tool *Select by Location* and selecting *overlap*, QGIS selects all polygons in 301 Building Footprint file that overlap with polygons. They cannot be completely covered by these buffer zones, which eliminates the possibilit of a construction zone being counted as an adjacent site unless it is adjacent to construction as well.
+A new output file is created for these buffers and used alongside the running master 301 Building Footprint file. Using a research tool *Select by Location* and selecting *overlap*, QGIS selects all polygons in the 301 Building Footprint file that overlaps with polygons. They cannot be completely covered by these buffer zones, which eliminates the possibility of a construction zone counted as an adjacent site unless it is adjacent to construction as well.
 
 Once these adjacent sites are selected, a new field created where
 
@@ -173,7 +173,7 @@ where,
     30 is Building Shaking/Vibrating/Structural Stability Affected
     73 is Failure to Maintain
 
-These Complaint Categories were specifically chosen as they provide information regarding the strutural status of the building. This data was then aggregated by BIN and Complaint Category. 
+These Complaint Categories were specifically chosen as they provide information regarding the structural status of the building. This data was then aggregated by BIN and Complaint Category. 
 
 | BIN# | 01 | 10 | 30 | 73 | Total |
 | ---- | -- | -- | -- | -- | ----- |
@@ -213,7 +213,7 @@ This dataset is used to create the map for Project 2.
 
 Please note: that due to data restrictions this file was parsed by classification, each classification made into separate geojson files, with an additional file created for any buildings that didn't fall into any of the categories.
 
-**Source** | [Processed Data]() |
+**Source** | [Processed Data](https://github.com/evasilva1/Portfolio-Interactive-Data-Vis-Sp2021/blob/main/data/Final_Final_Poly_WGS.geojson) |
 
 
 
