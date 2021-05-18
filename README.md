@@ -10,7 +10,6 @@ For my projects, I chose to talk about the High-Risk Assessment of 19th Century 
 | ------- | ----- | ------- |
 | Project 1 | Old Law Tenements and Adjacent Construction| Project 1, includes a map, a bar-graph, and a line-graph to explain the incidences taking place in Old Law Tenements, a breakdown of the Old Law Tenement population per Borough, and Construction Permits over Time to explain the importance and risks Old Law Tenement present when structurally compromised.
 | Project 2 | Demo: Community Board 301 | Project 2, includes an interactive map of Community Board 301 (Brooklyn, New York). This map allows the user to interact and locate buildings and their proximity to construction sites. It includes the classification of the 301 building population, whether it is an Old Law Tenement or not. The objective is so that the user can get a visual representation of the location of this specific population and relative distance to construction.
-| | | |
 
 ## Table of Contents
 | No | Title | Projects |
@@ -20,7 +19,6 @@ For my projects, I chose to talk about the High-Risk Assessment of 19th Century 
 | 3 | Reflection | [Overall](https://github.com/evasilva1/Portfolio-Interactive-Data-Vis-Sp2021/blob/main/REFLECTION.md)
 | 4 | Technical Documentation | [Data](https://github.com/evasilva1/Portfolio-Interactive-Data-Vis-Sp2021/tree/main/data)
 | 5 | References | [Overall](https://github.com/evasilva1/Portfolio-Interactive-Data-Vis-Sp2021/blob/main/REFERENCES.md)
-| | | |
 
 ## Data
 Most of the raw data used for the projects was obtained from [NYC OpenData](https://opendata.cityofnewyork.us/). An exception would be the descriptions used for the Incidence Map, which were taken from a private database. Further documentation can be found [here](https://github.com/evasilva1/Portfolio-Interactive-Data-Vis-Sp2021/tree/main/data).
