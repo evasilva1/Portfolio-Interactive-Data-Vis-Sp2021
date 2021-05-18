@@ -6,15 +6,15 @@
 ### Sketches
 **Sketch 1:** My initial sketched of what Project 1 was intended to be.
 
-<img src='../lib/assets/proj1_sketch1.PNG' width='700px'>
+<img src='../lib/assets/proj1_sketch1.png' width='700px'>
 
 **Sketch 2:** The second sketch created for Project 1.
 
-<img src='../lib/assets/proj1_sketch2.PNG' width='700px'>
+<img src='../lib/assets/proj1_sketch2.png' width='700px'>
 
 **Sketch 3:** The third sketch created for Project 1, includes changes made due to feedback received during the ideation workshop.
 
-<img src='../lib/assets/proj1_sketch3.PNG' width='700px'>
+<img src='../lib/assets/proj1_sketch3.png' width='700px'>
 
 The order in which the visualizations were originally was changed, so that the map of incidences was first and could be use to present the topic. The linegraph and bargraph order also change to go with the development of the story.
 

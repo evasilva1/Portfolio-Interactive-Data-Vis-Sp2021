@@ -14,7 +14,7 @@ allows the user to see the interactions between the different factors. The user,
 ### Sketches
 **Sketch 1:** My initial sketch of what Project 2 was intended to be.
 
-<img src='../lib/assets/proj2_sketch1.PNG' height='400px' width='700px'>
+<img src='../lib/assets/proj2_sketch1.png' height='400px' width='700px'>
 
 Originally, the idea was to create a page where the sole item present was a map. The map was intended to be an svg where geojson files were going to be imported an appended to an svg. The items were meant to be statis, the layers were not going to be toggled and the only item that would make the object interactive would be the ability to hover over a building and see a description card on the side.
 
