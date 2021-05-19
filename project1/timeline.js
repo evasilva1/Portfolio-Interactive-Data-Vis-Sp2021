@@ -5,7 +5,7 @@ console.log("width3",width3);
 const height3 = d3.select('#timeline').node().getBoundingClientRect().height;
 console.log("height3",height3);
 margin = {top: 40, right:20, bottom:70, left:60}
-
+let tooltip;
 
 // LOAD DATA
 d3.csv('../data/Permits_Year.csv', (d) => {
@@ -124,7 +124,8 @@ d3.csv('../data/Permits_Year.csv', (d) => {
             .style("font-weight", "bold")
             .text("Permits Issued")
 
-
-    });
+        // Legend
+        
+        });
 
     
