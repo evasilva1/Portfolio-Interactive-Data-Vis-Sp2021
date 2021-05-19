@@ -82,6 +82,19 @@ yAxisGroup.append("text")
 .text("Total Number of OLTs")
 
 // Count to bars
+svg.selectAll("text.Count")
+    .attr("transform", "translate(" + margin.left + ", " + margin.top + ")")
+    .data(data)
+    .join("text")
+    .attr("class",'Count')
+    .attr("x", d => xScale(d.Borough)+(xScale.bandwidth()/2))
+    .attr("y", d => yScale(d.OLT_Count))
+    .text(d => d.OLT_Count)
+    .attr("dy", "-.5em")
+    .attr("text-anchor",'middle')
+    .attr(d => d3.format(",")(d.OLT_Count))
+    .attr("fill", d => colorScale(d.Borough));
+
 
 // Titles
 svg.append("text")
@@ -91,6 +104,19 @@ svg.append("text")
     .style("font-size", "16px")
     .style("font-weight", "bold")
     .text("Old Law Tenements by Borough");
+
+// function drawChart(){
+//  width = d3.select('#barchart').node().getBoundingClientRect().width
+//  xScale.range([margin.left, width- margin.right])
+//  svg.attr("width", width)
+//  xAxis = d3.axisBottom(xScale)
+// }
+
+// drawChart()
+
+// window.addEventListener('resize', drawChart)
+// ;
+
 });
 
 
