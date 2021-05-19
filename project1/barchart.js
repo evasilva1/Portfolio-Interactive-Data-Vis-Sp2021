@@ -39,15 +39,12 @@ const svg = d3.select("#barchart")
 svg.selectAll("rect")
     .data(data)
     .join("rect")
+    .attr("class","bar")
     .attr("width", xScale.bandwidth())
     .attr("height", d => height - margin.bottom - yScale(d.OLT_Count))
     .attr("x", d=> xScale(d.Borough))
     .attr("y", d=> yScale(d.OLT_Count))
-    .attr("fill",d => colorScale(d.Borough))
-    //.attr('x', (d,i) => i*(width/data.length))
-    //.attr('y', (d) => height-d*(height/100))
-    //.attr('width', 0.8*(width/data.length))
-
+    .attr("fill",d => colorScale(d.Borough));
 
  // + AXES
  const xAxis = d3.axisBottom(xScale)
@@ -93,9 +90,7 @@ svg.append("text")
     .attr("text-anchor", "middle")
     .style("font-size", "16px")
     .style("font-weight", "bold")
-    .text("Old Law Tenements by Borough")
-
-
+    .text("Old Law Tenements by Borough");
 });
 
 
