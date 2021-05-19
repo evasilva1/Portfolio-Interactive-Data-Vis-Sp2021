@@ -81,7 +81,7 @@ yAxisGroup.append("text")
 .style("fill", "black")
 .text("Total Number of OLTs")
 
-// Count to bars
+// Bar Labels
 svg.selectAll("text.Count")
     .attr("transform", "translate(" + margin.left + ", " + margin.top + ")")
     .data(data)
@@ -92,7 +92,7 @@ svg.selectAll("text.Count")
     .text(d => d.OLT_Count)
     .attr("dy", "-.5em")
     .attr("text-anchor",'middle')
-    .attr(d => d3.format(",")(d.OLT_Count))
+    //.attr(d => d3.format(",")(d.OLT_Count))
     .attr("fill", d => colorScale(d.Borough));
 
 
