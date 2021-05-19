@@ -1,6 +1,6 @@
 //-73.94565, 40.72164 . -73.9499, 40.626
 mapboxgl.accessToken = 'pk.eyJ1IjoiZXNpbHZhLTEiLCJhIjoiY2tvOWJweWFkMGo0YTJ4cWh2end2NjFlNyJ9.cFv_HCk8vjYHiZI3zNQrBg';
-    var bounds = [
+    let bounds = [
     [-73.97,40.7],
     [-73.92,40.74]
     ];
@@ -68,7 +68,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZXNpbHZhLTEiLCJhIjoiY2tvOWJweWFkMGo0YTJ4cWh2e
               ;
           } else {
             document.getElementById('pd').innerHTML =
-              '<p>Hover over a state!</p>'
+              '<p>Hover over a building!</p>'
     }
     });
 });

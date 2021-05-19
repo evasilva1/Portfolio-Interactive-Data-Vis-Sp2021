@@ -26,7 +26,7 @@ This data was then merged with the Building Footprints shapefile to produce a da
 Once merged this file was imported to Mapbox GLJS and styled.
 
 **Source:** 
-| [Raw Data](https://data.cityofnewyork.us/Housing-Development/DOB-Complaints-Received/eabe-havv) | [Processed Data]() |
+| [Raw Data](https://data.cityofnewyork.us/Housing-Development/DOB-Complaints-Received/eabe-havv) | [Processed Data](https://github.com/evasilva1/Portfolio-Interactive-Data-Vis-Sp2021/blob/main/data/Incident_Final_Detailed.geojson) |
 
 ### Bar-graph of Old Law Tenements by Borough
 This dataset was created using the Buildings Subject to HPD Jurisdiction filtered for Old Law Tenements. This data was then aggregated to form a table with the following fields:

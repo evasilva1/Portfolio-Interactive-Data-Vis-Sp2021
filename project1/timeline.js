@@ -4,7 +4,7 @@ const width3 = d3.select('#timeline').node().getBoundingClientRect().width;
 console.log("width3",width3);
 const height3 = d3.select('#timeline').node().getBoundingClientRect().height;
 console.log("height3",height3);
-margin = {top: 40, right:20, bottom:60, left:60}
+margin = {top: 40, right:20, bottom:70, left:60}
 
 
 // LOAD DATA
@@ -57,7 +57,7 @@ d3.csv('../data/Permits_Year.csv', (d) => {
             .append("svg")
             .attr("width", width3)
             .attr("height", height3)
-            .style('background-color', 'lightgrey');
+            .style('background-color', '#fafafa');
             //.append("transform","translate(" + 20 +"," + 20 + ")");
 // LINES
         svg.selectAll("path.n")
