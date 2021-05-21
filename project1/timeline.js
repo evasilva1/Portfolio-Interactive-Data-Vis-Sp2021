@@ -122,16 +122,28 @@ d3.csv('../data/Permits_Year.csv', (d) => {
             .attr("text-anchor", "middle")
             .style("font-size", "16px")
             .style("font-weight", "bold")
-            .text("Permits Issued");
+            .text("Permits Issued")
 
         // Legend
-        // svg.append("text")
-        //     .attr("transform", "translate(" + (width) + "," +(d=> d3.max(d, d=> yScale(d.NB)))+  + ")")
-        //     .attr("dy", ".05em")
-        //     .attr("text-anchor", "start")
-        //     .style("fill","red")
-        //     .text("NB");
+        svg.append("text")
+            .attr("transform", "translate(" + (width3-margin.right-50) + "," + (yScale(data[0].totdm)-6)  + ")")
+            .attr("dy", ".35em")
+            .attr("text-anchor", "start")
+            .style("fill","blue")
+            .text("DM");
+        
+        svg.append("text")
+            .attr("transform", "translate(" + (width3-margin.right-55) + "," + (yScale(data[0].totnb)-100)  + ")")
+            .attr("dy", ".35em")
+            .attr("text-anchor", "start")
+            .style("fill","red")
+            .text("NB");
+
+        svg.append("text")
+            .attr("transform", "translate(" + (width3-margin.right-10) + "," + (yScale(data[0].totalt)-25)  + ")")
+            .attr("dy", ".35em")
+            .attr("text-anchor", "start")
+            .style("fill","green")
+            .text("A1");
         
         });
-
-    
