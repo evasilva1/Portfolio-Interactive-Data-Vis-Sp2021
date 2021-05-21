@@ -124,7 +124,7 @@ d3.csv('../data/Permits_Year.csv', (d) => {
             .style("font-weight", "bold")
             .text("Permits Issued")
 
-        // Legend
+        // lines labels
         svg.append("text")
             .attr("transform", "translate(" + (width3-margin.right-50) + "," + (yScale(data[0].totdm)-6)  + ")")
             .attr("dy", ".35em")
