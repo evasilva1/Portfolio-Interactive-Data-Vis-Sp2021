@@ -26,7 +26,7 @@
 
 [12] [Multiple line graph in v4](https://bl.ocks.org/d3noob/4db972df5d7efc7d611255d1cc6f3c4f)
 
-[13] [Labelling Multiline Graphs](https://leanpub.com/D3-Tips-and-Tricks/read#leanpub-auto-labelling-multiple-lines-on-a-graph)
+[13] [Labelling Multiple Line Graphs](https://leanpub.com/D3-Tips-and-Tricks/read#leanpub-auto-labelling-multiple-lines-on-a-graph)
 
 [14] [HTML Color Codes: Color Picker](https://htmlcolorcodes.com/color-picker/)
 
