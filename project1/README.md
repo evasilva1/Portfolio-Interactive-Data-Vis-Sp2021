@@ -23,13 +23,17 @@ The order in which the visualizations were originally was changed, so that the m
 
 <img src='../lib/assets/full_proj1_iteration1.PNG' width='700px'>
 
-This iteration distinct to the sketches as more thought was given to the structure of the page. The second map was removed after feedback received from the class presentations.
+This iteration distinct to the sketches as more thought was given to the structure of the page. The first map was removed after feedback received from the class presentations.
 
 **Iteration 2**
 
-<img src='../lib/assets/full_proj1_iteration2.PNG' width='700px'>
+<img src='../lib/assets/full_proj1_iteration2p1.PNG' width='700px'>
 
-This iteration continues to have the same row and column structure used in iteration 1. However, this iteration includes the use of Mapbox and images. The use of images was due to feedback received during the class presentations and the use of Mapbox after a discussion with the Professor.
+<img src='../lib/assets/full_proj1_iteration2p2.PNG' width='700px'>
+
+<img src='../lib/assets/full_proj1_iteration2p3.PNG' width='700px'>
+
+This iteration structure changes from that used in iteration 1. This iteration includes the use of Mapbox and images. The use of images was due to feedback received during the class presentations and the use of Mapbox after a discussion with the Professor.
 
 ### Final
 <img src='../lib/assets/full_proj1_final.PNG' width='700px'>
