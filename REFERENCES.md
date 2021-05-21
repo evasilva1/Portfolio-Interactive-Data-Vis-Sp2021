@@ -26,6 +26,8 @@
 
 [12] [Multiple line graph in v4](https://bl.ocks.org/d3noob/4db972df5d7efc7d611255d1cc6f3c4f)
 
-[13] [HTML Color Codes: Color Picker](https://htmlcolorcodes.com/color-picker/)
+[13] [Labelling Multiline Graphs](https://leanpub.com/D3-Tips-and-Tricks/read#leanpub-auto-labelling-multiple-lines-on-a-graph)
 
-[14] [Make a choropleth map, part 2: add interactivity](https://docs.mapbox.com/help/tutorials/choropleth-studio-gl-pt-2/)
+[14] [HTML Color Codes: Color Picker](https://htmlcolorcodes.com/color-picker/)
+
+[15] [Make a choropleth map, part 2: add interactivity](https://docs.mapbox.com/help/tutorials/choropleth-studio-gl-pt-2/)
