@@ -36,7 +36,9 @@ This iteration distinct to the sketches as more thought was given to the structu
 This iteration structure changes from that used in iteration 1. This iteration includes the use of Mapbox and images. The use of images was due to feedback received during the class presentations and the use of Mapbox after a discussion with the Professor.
 
 ### Final
-<img src='../lib/assets/full_proj1_final.PNG' width='700px'>
+<img src='../lib/assets/full_proj1_finalp1.PNG' width='700px'>
+
+<img src='../lib/assets/full_proj1_finalp2.PNG' width='700px'>
 
 
 
